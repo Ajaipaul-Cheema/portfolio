@@ -10,7 +10,7 @@ const about = {
     name: 'Ajaipaul',
     role: 'CS @ SFU | Prev Software Engineer Intern @ Felix Payment Systems',
     description: 
-        '👨‍💻 A highly enthusiastic 4th year computer science student at SFU, who loves to bring his ideas to life through code.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Summer 2024 SWE internships',
+        '👨‍💻 A highly enthusiastic 4th year computer science student at SFU, who loves to bring his ideas to life through code.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
     contact: {
         github: 'https://github.com/Ajaipaul-Cheema',
         linkedin: 'https://www.linkedin.com/in/ajaipaul-cheema/',
