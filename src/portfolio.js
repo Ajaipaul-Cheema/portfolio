@@ -25,14 +25,13 @@ const experiences = [
         role: 'Software Engineer Intern',
         date: 'May 2022 - August 2022',
         description: String().concat(
-            'Contributed to a tap-to-phone payment solution, reducing processing time by 45% for NFC contactless payments\n',
-            'Created REST APIs using Spring Boot to interface with Visa and Mastercard Contactless Reader SDKs\n',
-            'Built an internal dashboard application with Java and React to display feasibility results for payment transactions\n',
-            'Aided in Android app development and server-side engines in Linux environments with the use of Docker containers\n',
-            'Implemented widget transaction responses in C++ and performed pre-certification EMV testing using UL Test tool\n',
-            'Conducted 200+ unit tests with JUnit and integrated test sets into Bamboo CI/CD through bash scripts'
+            'Created a REST API using Spring Boot to interface with the Visa Contactless Reader SDK, significantly enhancing NFC contactless payment processing capacity by 200 transactions per hour\n',
+            'Built an internal dashboard application with Java backend and React frontend to monitor and optimize payment transaction performance, providing actionable insights into transaction metrics\n',
+            'Performed pre-certification EMV testing using UL Test tool to validate payment system compliance\n',
+            'Automated unit testing with JUnit and Jest, achieving 80% coverage, and integrated Bamboo CI/CD for streamlined testing and accelerated deployments\n',
+            'Documented API endpoints, database schemas, and test workflows, reducing onboarding time for new developers'
         ),
-        stack: ['Java', 'React', 'C++', 'Spring Boot', 'Docker', 'JUnit']
+        stack: ['Java', 'React', 'Spring Boot', 'JUnit', 'Jest']
     },
 ]
 
@@ -42,11 +41,39 @@ const projects = [
         description: String().concat(
             'Designed and implemented a full-stack inventory system, leveraging barcode data for scanning functionality, resulting in countless hours saved per week and a reduction in manual labor\n',
             'Built a REST API for CRUD operations, leveraging Express, Node, and PostgreSQL\n',
-            'Integrated Google Maps API to show location of inventory items, leading to less inventory tracking errors\n',
+            'Performed rigorous testing with Mocha and Chai for early issue detection and robust functionality\n',
             'Created a secure authentication system using JWT Auth, BCrypt and PassportJS to prevent unauthorized access'
         ),
         stack: ['JavaScript', 'Node', 'Express', 'React', 'PostgreSQL', 'Git'],
         github: 'https://github.com/Ajaipaul-Cheema/BGC-Engineering-Inventory-System',
+    },
+    {
+        name: 'Menu Order Desktop App',
+        description: String().concat(
+            'Built a Java CRUD app using Swing API and Spring Boot to emulate a food ordering application\n',
+            'Developed the GUI to feature menu items per page by leveraging scrolling functionality\n',
+            'Employed factory design patterns to dynamically create instances of menu item objects based on user selections'
+        ),
+        stack: ['Java', 'Spring Boot', 'Swing', 'JUnit'],
+        github: 'https://github.com/Ajaipaul-Cheema/TrackerPedia-App'
+    },
+    {
+        name: 'NHL Stats Analyzer',
+        description: String().concat(
+            'Developed a Python script using web scraping to collect player statistics from various online sources\n',
+            'Utilized the Yahoo Fantasy Sports API endpoints to access current performance statistics and historical data\n',
+            'Applied linear regression models to assess player performance trends, contributing to an increase in team point averages over the season'
+        ),
+        stack: ['Python'],
+    },
+    {
+        name: 'CShell',
+        description: String().concat(
+            'Architected and created a command-line interpreter with robust environment variable support\n',
+            'Developed dynamic storage for management of environment variables and implemented multi-threaded capabilities\n',
+            'Integrated a custom system call into the Linux kernel for converting lowercase ASCII characters to uppercase'
+        ),
+        stack: ['C', 'Linux'],
     },
     {
         name: 'DailyDime Mobile App',
@@ -58,25 +85,6 @@ const projects = [
         ),
         stack: ['Java', 'Kotlin', 'Firebase', 'GCP', 'Git'],
         github: 'https://github.com/Ajaipaul-Cheema/DailyDime',
-    },
-    {
-        name: 'Fantasy Hockey Team Optimizer',
-        description: String().concat(
-            'Developed a Python script using web scraping to collect player statistics from various online sources\n',
-            'Utilized the Yahoo Fantasy Sports API endpoints to access current performance statistics and historical data\n',
-            'Applied linear regression models to assess player performance trends, contributing to an increase in team point averages over the season'
-        ),
-        stack: ['Python'],
-    },
-    {
-        name: 'Menu Order Desktop App',
-        description: String().concat(
-            'Built a Java CRUD app using Swing API and Spring Boot to emulate a food ordering application\n',
-            'Developed the GUI to feature menu items per page by leveraging scrolling functionality\n',
-            'Employed factory design patterns to dynamically create instances of menu item objects based on user selections'
-        ),
-        stack: ['Java', 'Spring Boot', 'Swing', 'JUnit'],
-        github: 'https://github.com/Ajaipaul-Cheema/TrackerPedia-App'
     },
     {
         name: 'Image Processor',
