@@ -10,7 +10,7 @@ const about = {
     name: 'Ajaipaul',
     role: 'CS @ SFU | Prev Software Engineer Intern @ Felix Payment Systems',
     description: 
-        '👨‍💻 A highly enthusiastic 4th year computer science student at SFU, who loves to bring his ideas to life through code.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
+        '👨‍💻 A 4th year computer science student at SFU, who loves to bring his ideas to life through code.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
     contact: {
         github: 'https://github.com/Ajaipaul-Cheema',
         linkedin: 'https://www.linkedin.com/in/ajaipaul-cheema/',
@@ -24,14 +24,6 @@ const experiences = [
         companyLink: 'https://www.payfelix.com/',
         role: 'Software Engineer Intern',
         date: 'May 2022 - August 2022',
-        description: String().concat(
-            'Created a REST API using Spring Boot to interface with the Visa Contactless Reader SDK, significantly enhancing NFC contactless payment processing capacity by 200 transactions per hour\n',
-            'Built an internal dashboard application with Java backend and React frontend to monitor and optimize payment transaction performance, providing actionable insights into transaction metrics\n',
-            'Performed pre-certification EMV testing using UL Test tool to validate payment system compliance\n',
-            'Automated unit testing with JUnit and Jest, achieving 80% coverage, and integrated Bamboo CI/CD for streamlined testing and accelerated deployments\n',
-            'Documented API endpoints, database schemas, and test workflows, reducing onboarding time for new developers'
-        ),
-        stack: ['Java', 'React', 'Spring Boot', 'JUnit', 'Jest']
     },
 ]
 
@@ -41,10 +33,20 @@ const projects = [
         description: String().concat(
             'Designed and implemented a full-stack inventory system, leveraging barcode data for scanning functionality, resulting in countless hours saved per week and a reduction in manual labor\n',
             'Built a REST API for CRUD operations, leveraging Express, Node, and PostgreSQL\n',
-            'Performed rigorous testing with Mocha and Chai for early issue detection and robust functionality\n',
             'Created a secure authentication system using JWT Auth, BCrypt and PassportJS to prevent unauthorized access'
         ),
         stack: ['JavaScript', 'Node', 'Express', 'React', 'PostgreSQL', 'Git'],
+        github: 'https://github.com/Ajaipaul-Cheema/BGC-Engineering-Inventory-System',
+    },
+    {
+        name: 'Olympic Medals Predictor',
+        description: String().concat(
+            'Developed and evaluated multiple predictive models for the 2016 Olympics using Python and scikit-learn, achieving an RMSE of 5.82 medals\n',
+            'Scraped Olympic statistics across seven years of olympic data using BeautifulSoup and requests library, resulting in over 1,300 rows of country, medals, and athlete data\n',
+            'Performed data cleaning and entity resolution using Pandas, transforming and merging data into a unified DataFrame for model training and testing\n',
+            'Visualized model performance by plotting and comparing predictions using Matplotlib, analyzing outliers and trends to improve accuracy'
+        ),
+        stack: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib', 'requests', 'BeautifulSoup'],
         github: 'https://github.com/Ajaipaul-Cheema/BGC-Engineering-Inventory-System',
     },
     {
