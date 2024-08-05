@@ -10,7 +10,7 @@ const about = {
     name: 'Ajaipaul',
     role: 'CS @ SFU | Prev Software Engineer Intern @ Felix Payment Systems',
     description: 
-        '👨‍💻 A 4th year computer science student at SFU, who loves to bring his ideas to life through code.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
+        '👨‍💻 A 4th year computer science student at SFU.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
     contact: {
         github: 'https://github.com/Ajaipaul-Cheema',
         linkedin: 'https://www.linkedin.com/in/ajaipaul-cheema/',
@@ -47,7 +47,7 @@ const projects = [
             'Visualized model performance by plotting and comparing predictions using Matplotlib, analyzing outliers and trends to improve accuracy'
         ),
         stack: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib', 'requests', 'BeautifulSoup'],
-        github: 'https://github.com/Ajaipaul-Cheema/BGC-Engineering-Inventory-System',
+        github: 'https://github.com/Ajaipaul-Cheema/Olympics_Predictor',
     },
     {
         name: 'Menu Order Desktop App',
