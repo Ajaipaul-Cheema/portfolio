@@ -24,7 +24,13 @@ const experiences = [
         companyLink: 'https://www.payfelix.com/',
         role: 'Software Engineer Intern',
         date: 'May 2022 - August 2022',
-    },
+        description: String().concat(
+            '💳 Developed a REST API using Spring Boot to interface with the Visa Contactless Reader SDK which enhanced NFC payment processing by 200+ transactions per hour\n',
+            '📊 Built a website for feasibility results and designed SQL queries to analyze transaction data, improving report generation efficiency by 30%\n',
+            '🤖 Automated testing with JUnit/Jest (80% coverage) and integrated Bamboo CI/CD for streamlined deployments'
+        
+        )
+},
 ]
 
 const projects = [  
