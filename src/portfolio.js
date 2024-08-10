@@ -25,9 +25,11 @@ const experiences = [
         role: 'Software Engineer Intern',
         date: 'May 2022 - August 2022',
         description: String().concat(
-            '💳 Developed a REST API using Spring Boot to interface with the Visa Contactless Reader SDK which enhanced NFC payment processing by 200+ transactions per hour\n',
-            '📊 Built a website for feasibility results and designed SQL queries to analyze transaction data, improving report generation efficiency by 30%\n',
-            '🤖 Automated testing with JUnit/Jest (80% coverage) and integrated Bamboo CI/CD for streamlined deployments'
+            'Created REST APIs using Spring Boot to interface with Visa and Mastercard’s Contactless Reader SDKs, reducing processing time by 45% for NFC contactless payments\n',
+            'Built an internal dashboard application with Java and React to display feasibility results for payment transactions\n',
+            'Aided in Android app development and server-side engines in Linux environments with the use of Docker containers\n',
+            'Implemented widget transaction responses in C++ and performed pre-certification EMV testing using UL Test tool\n',
+            'Conducted 100+ unit tests with JUnit and integrated test sets into Bamboo CI/CD through bash scripts'
         
         )
 },
@@ -39,6 +41,7 @@ const projects = [
         description: String().concat(
             'Designed and implemented a full-stack inventory system, leveraging barcode data for scanning functionality, resulting in countless hours saved per week and a reduction in manual labor\n',
             'Built a REST API for CRUD operations, leveraging Express, Node, and PostgreSQL\n',
+            'Integrated Google Maps API to show location of inventory items, leading to fewer inventory tracking errors\n',
             'Created a secure authentication system using JWT Auth, BCrypt and PassportJS to prevent unauthorized access'
         ),
         stack: ['JavaScript', 'Node', 'Express', 'React', 'PostgreSQL', 'Git'],
@@ -54,6 +57,26 @@ const projects = [
         ),
         stack: ['Python', 'scikit-learn', 'Pandas', 'Matplotlib', 'requests', 'BeautifulSoup'],
         github: 'https://github.com/Ajaipaul-Cheema/Olympics_Predictor',
+    },
+    {
+        name: 'DailyDime Mobile App',
+        description: String().concat(
+            'Developed a mobile app for personal finance that allows users to track their transactions, visualize spending patterns, and create investment portfolios\n',
+            'Utilized AnyChart Android to create pie and bar charts to represent income and expense distributions, providing users with insightful visualizations to understand their financial trends\n',
+            'Used Firebase for secure user authentication and as a data storage solution for user-specific financial data\n',
+            'Implemented Kotlin MVVM architecture for a modular codebase, enabling seamless integration of new features',
+        ),
+        stack: ['Java', 'Kotlin', 'Firebase', 'GCP', 'Git'],
+        github: 'https://github.com/Ajaipaul-Cheema/DailyDime',
+    },
+    {
+        name: 'Computational Blockchain',
+        description: String().concat(
+            'Developed a work-based blockchain application in Rust with the SHA256 hashing algorithm\n',
+            'Implemented a producer-consumer work queue that concurrently mines blocks by distributing the workload among multiple worker threads\n',
+            'Retrieves the first eligible proof value before draining the multi-threaded work queue, ensuring resource optimization'
+        ),
+        stack: ['Rust'],
     },
     {
         name: 'Menu Order Desktop App',
@@ -82,17 +105,6 @@ const projects = [
             'Integrated a custom system call into the Linux kernel for converting lowercase ASCII characters to uppercase'
         ),
         stack: ['C', 'Linux'],
-    },
-    {
-        name: 'DailyDime Mobile App',
-        description: String().concat(
-            'Developed a mobile app for personal finance that allows users to track their transactions, visualize spending patterns, and create investment portfolios\n',
-            'Utilized AnyChart Android to create pie and bar charts to represent income and expense distributions, providing users with insightful visualizations to understand their financial trends\n',
-            'Used Firebase for secure user authentication and as a data storage solution for user-specific financial data\n',
-            'Implemented Kotlin MVVM architecture for a modular codebase, enabling seamless integration of new features',
-        ),
-        stack: ['Java', 'Kotlin', 'Firebase', 'GCP', 'Git'],
-        github: 'https://github.com/Ajaipaul-Cheema/DailyDime',
     },
     {
         name: 'Image Processor',
