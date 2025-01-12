@@ -8,9 +8,9 @@ const header = {
 const about = {
     photo: aboutpic,
     name: 'Ajaipaul',
-    role: 'CS @ SFU | Prev Software Engineer Intern @ Felix Payment Systems',
+    role: 'CS @ SFU | Software Engineer Intern @ Clio',
     description: 
-        '👨‍💻 A 4th year computer science student at SFU.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Fall 2024 SWE internships',
+        '👨‍💻 A 4th year computer science student at SFU.\n 👋 Whether it is about software development, hockey, or the gym, feel free to reach out and connect with me!\n 🔭 Seeking for Summer 2025 SWE internships',
     contact: {
         github: 'https://github.com/Ajaipaul-Cheema',
         linkedin: 'https://www.linkedin.com/in/ajaipaul-cheema/',
@@ -20,19 +20,17 @@ const about = {
 
 const experiences = [
     {
+        company: 'Clio - Cloud-Based Legal Technology (Payments Team)',
+        companyLink: 'https://www.clio.com/features/payments/',
+        role: 'Software Engineer Intern',
+        date: 'September 2024 - April 2025',
+    },
+    {
         company: 'Felix Payment Systems',
         companyLink: 'https://www.payfelix.com/',
         role: 'Software Engineer Intern',
         date: 'May 2022 - August 2022',
-        description: String().concat(
-            'Created REST APIs using Spring Boot to interface with Visa and Mastercard’s Contactless Reader SDKs, reducing processing time by 45% for NFC contactless payments\n',
-            'Built an internal dashboard application with Java and React to display feasibility results for payment transactions\n',
-            'Aided in Android app development and server-side engines in Linux environments with the use of Docker containers\n',
-            'Implemented widget transaction responses in C++ and performed pre-certification EMV testing using UL Test tool\n',
-            'Conducted 100+ unit tests with JUnit and integrated test sets into Bamboo CI/CD through bash scripts'
-        
-        )
-},
+    },
 ]
 
 const projects = [  
