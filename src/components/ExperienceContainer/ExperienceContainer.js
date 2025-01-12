@@ -10,15 +10,6 @@ const ExperienceContainer = ({ experience }) => (
             <p className='experience__date'>{experience.date}</p>
         </div>
         <p className='experience__role'>{experience.role}</p>
-        {experience.description.includes('\n') ? (
-            <ul className='experience__description'>
-                {experience.description.split('\n').map((item) => (
-                    <li key={uniqid()}>{item}</li>
-                ))} 
-            </ul>
-        ) : (
-            <p className='experience__description'>{experience.description}</p>
-        )}
         {experience.stack && (
             <ul className='experience__stack'>
                 {experience.stack.map((item) => (

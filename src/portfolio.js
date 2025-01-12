@@ -20,7 +20,7 @@ const about = {
 
 const experiences = [
     {
-        company: 'Clio - Cloud-Based Legal Technology (Payments Team)',
+        company: 'Clio - Cloud-Based Legal Technology',
         companyLink: 'https://www.clio.com/features/payments/',
         role: 'Software Engineer Intern',
         date: 'September 2024 - April 2025',
